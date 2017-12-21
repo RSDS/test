@@ -106,7 +106,7 @@ COOKIE = {'UOR':',finance.sina.com.cn,',
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-SPLASH_URL = 'http://localhost:8050'
+SPLASH_URL = 'http://65.49.215.36:8050'
 
 DOWNLOADER_MIDDLEWARES = {
     'scrapy_splash.SplashCookiesMiddleware': 723,
